@@ -63,10 +63,15 @@ console.log(coder)
 
 //Escribe tu código aquí
 
-typeof "hola";
-typeof 22;
-typeof true;
-
+console .log(typeof "hola");
+console .log(typeof 22);
+console .log(typeof true);
+console .log(typeof car);
+console .log(typeof x);
+console .log(typeof clothes);
+console .log(typeof person);
+console .log(typeof postres);
+console .log(typeof coder);
 
 
 
@@ -75,7 +80,8 @@ typeof true;
 
 //Escribe tu código aquí
 
-
+let suma = 2 + 2;
+console.log(suma)
 
 
 //Ejercicio 7: Crea una varible que reste 2 números e imprime el resultado en consola.
@@ -83,20 +89,23 @@ typeof true;
 //Escribe tu código aquí
 
 
-
+let resta = 2 - 2;
+console.log(resta)
 
 //Ejercicio 8: Crea una varible que multiplique 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
-
+let multiplicacion = 2 * 5;
+console.log(multiplicacion)
 
 
 //Ejercicio 9: Crea una varible que divida 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
-
+let division = 10 / 2;
+console.log(division)
 
 
 //OPERADORES DE COMPARACIÓN
@@ -104,6 +113,10 @@ typeof true;
 
 //Escribe tu código aquí
 
+let variable1 = 1;
+let variable2 = 2;
+let resultado = variable1 == variable2;
+console.log(resultado)
 
 
 
@@ -111,32 +124,35 @@ typeof true;
 
 //Escribe tu código aquí
 
-
+let resultado2 = variable1 != variable2;
+console.log(resultado2)
 
 
 //Ejercicio 11: completa el ejercicio
-/*
+
 let num1 = 15
 let num2 = 20
 
-let comparacion = //Realiza la operación de comparación que consideres para que el resultado en consola sea true
+let comparacion = num1 != num2
 console.log(comparacion)
-*/
+
 
 //Ejercicio 12: completa el ejercicio
-/*
+
 let num3 = 1
 let num3AsString = "1"
 
-let result = //Realiza la operación de comparación que consideres entre las dos variables dadas, para que el resultado en consola sea false sin usar el comparador de desigualdad
+let result = num3 > num3AsString
+//Realiza la operación de comparación que consideres entre las dos variables dadas, para que el resultado en consola sea false sin usar el comparador de desigualdad
 console.log(result) 
-*/
+
 
 //Ejercicio 13: completa el ejercicio
-/*
-let result2 = //Realiza la operación de comparación que consideres con las dos variables del ejercicio anterior para que el resultado en consola sea true.
+
+let result2 = num3 == num3AsString
+//Realiza la operación de comparación que consideres con las dos variables del ejercicio anterior para que el resultado en consola sea true.
 console.log(result2)
-*/
+
 
 
 //OPERADORES DE CADENAS
