@@ -10,13 +10,32 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
-
+console.log('Bienvenida al bootcamp Femcoders de Factoría F5')
 
 
 //VARIABLES Y TIPOS DE DATOS
 //Ejercicio 2: Crea una variable por los siguientes tipos de dato: string, number, boolean, null, undefined, object, array e imprímelos en la consola.
 
 //Escribe tu código aquí
+
+let string = "hola";
+let number = 22;
+let boolean = true;
+let car;
+let x = null;
+
+console.log(string, number, boolean, car, x)
+
+let clothes = ["shirt", "trousers", "jumper"]; 
+
+console.log(clothes)
+
+const person = {
+    name: "Lara",
+    age: 34, 
+};
+
+console.log(person)
 
 
 
@@ -25,19 +44,28 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
+const postres = ["helado", "tarta", "pastel"]
 
-
+console.log(postres)
 
 //Ejercicio 4: Crea una constante con un tipo de dato objeto llamado coder que contengan dos propiedades, nombre y edad e imprímelo en la consola.
 
 //Escribe tu código aquí
 
+const coder = {
+    name: "Carla",
+    age: 20, 
+};
 
-
+console.log(coder)
 
 //Ejercicio 5: Busca como imprimir en consola el tipo de dato de cada variable que hemos creado.
 
 //Escribe tu código aquí
+
+typeof "hola";
+typeof 22;
+typeof true;
 
 
 
